@@ -1,0 +1,26 @@
+{
+  "起步": [
+    {
+      "name": "start",
+      "path": "/start",
+      "desc": "快速开始"
+    },
+    {
+      "name": "Index",
+      "path": "/",
+      "type": "pages"
+    }
+  ],
+  "组件": [
+    {
+      "path": "/component",
+      "items": [
+        {
+          "desc": "按钮",
+          "name": "button",
+          "path": "/button"
+        }
+      ]
+    }
+  ]
+}
