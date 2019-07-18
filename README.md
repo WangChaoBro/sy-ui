@@ -1,6 +1,36 @@
-# syui
+# sy-ui
 
 > A Vue.js project
+
+
+##  安装
+
+```bash
+npm install sy-ui --save-dev
+```
+
+##  使用
+
+#### 全局使用
+```bash
+import SYUI from 'syui' 
+
+import '../node_modules/SYUI/packages/style/lib/index.css'
+
+Vue.use(SYUI)
+```
+
+#### 单个组件使用
+```bash
+import { Button } from 'SYUI'
+
+export default {
+  components: {
+    Button
+  }
+}
+```
+
 
 ## Build Setup
 
@@ -17,5 +47,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
